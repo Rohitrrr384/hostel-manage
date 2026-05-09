@@ -1,0 +1,84 @@
+name: myapp
+description: Smart Hostel Management System
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # UI
+  cupertino_icons: ^1.0.6
+  google_fonts: ^8.1.0
+  flutter_svg: ^2.0.9
+  cached_network_image: ^3.3.0
+  shimmer: ^3.0.0
+  lottie: ^2.7.0
+  fl_chart: ^0.65.0
+  flutter_staggered_animations: ^1.1.1
+  badges: ^3.1.2
+  dotted_border: ^2.1.0
+
+  # State Management
+  provider: ^6.1.5+1
+  get: ^4.6.6
+
+  # Navigation
+  go_router: ^13.0.0
+
+  # Storage & Database
+  shared_preferences: ^2.5.5
+  sqflite: ^2.3.0
+  path: ^1.8.3
+  path_provider: ^2.1.2
+
+  # Network
+  http: ^1.1.2
+  dio: ^5.4.0
+  connectivity_plus: ^5.0.2
+
+  # Auth & Security
+  local_auth: ^2.1.8
+  flutter_secure_storage: ^9.0.0
+
+  # Notifications
+  flutter_local_notifications: ^19.5.0
+
+  # Image & File
+  image_picker: ^1.0.7
+  file_picker: ^11.0.2
+  permission_handler: ^11.3.0
+
+  # QR Code
+  qr_flutter: ^4.1.0
+  mobile_scanner: ^7.2.0
+
+  # Utils
+  intl: ^0.19.0
+  uuid: ^4.3.3
+  url_launcher: ^6.2.5
+  share_plus: ^7.2.2
+  pdf: ^3.10.8
+  printing: ^5.12.0
+  timeline_tile: ^2.0.0
+  step_progress_indicator: ^1.0.2
+  percent_indicator: ^4.2.3
+  table_calendar: ^3.0.9
+  flutter_rating_bar: ^4.0.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+  build_runner: ^2.4.7
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/icons/
